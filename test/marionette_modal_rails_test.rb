@@ -38,6 +38,11 @@ class MarionetteModalRailsTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 
+  test 'javascripts are available as a js asset pipeline require' do
+    get 'assets/application.js'
+    assert_response :success
+  end
+
   private
 
   def clean_sprockets_cache
