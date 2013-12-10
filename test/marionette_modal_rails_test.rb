@@ -46,6 +46,6 @@ class MarionetteModalRailsTest < ActionDispatch::IntegrationTest
   private
 
   def clean_sprockets_cache
-    FileUtils.rm_rf File.expand_path("../dummy/tmp",  __FILE__)
+    FileUtils.rm_rf File.expand_path("../dummy/tmp", __FILE__)
   end
 end
