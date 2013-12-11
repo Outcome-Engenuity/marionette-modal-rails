@@ -1,7 +1,8 @@
 $:.push File.expand_path("../lib", __FILE__)
 
 # Maintain your gem's version:
-require "marionette_modal_rails/version"
+require "marionette-modal-rails/version"
+require "marionette.modal"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
@@ -17,6 +18,6 @@ Gem::Specification.new do |s|
   s.version     = MarionetteModalRails::Rails::VERSION
   s.test_files = Dir["test/**/*"]
 
-  s.add_dependency "rails", "~> 4.0.0"
+  s.add_dependency "railties", "~> 4.0.0"
   s.add_dependency "marionette.modal", "~>1.0.0.7"
 end
