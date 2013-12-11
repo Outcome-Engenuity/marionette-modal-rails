@@ -17,6 +17,6 @@ Gem::Specification.new do |s|
   s.version     = MarionetteModalRails::Rails::VERSION
   s.test_files = Dir["test/**/*"]
 
-  s.add_dependency "rails", "~> 4.0.1"
+  s.add_dependency "rails", "~> 4.0.0"
   s.add_dependency "marionette.modal", "~>1.0.0.7"
 end
