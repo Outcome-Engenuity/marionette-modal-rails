@@ -1,5 +1,5 @@
 module MarionetteModalRails
   module Rails
-    VERSION = "1.0.0.4"
+    VERSION = "1.0.0.6"
   end
 end
