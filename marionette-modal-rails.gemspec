@@ -18,5 +18,5 @@ Gem::Specification.new do |s|
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "railties", "~> 4.0.0"
-  s.add_dependency "marionette-modal", "~>1.0.0.8"
+  s.add_dependency "marionette-modal", "~>1.0.0.9"
 end
